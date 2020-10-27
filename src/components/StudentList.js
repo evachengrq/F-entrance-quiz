@@ -9,8 +9,8 @@ class StudentList extends Component {
       <section className="studentList">
           <h1>学员列表</h1>
           <section>
-            {this.state.map(item => (
-              <button className="studentLabels">{item}</button>
+            {this.state.map((item, index) => (
+              <button className="studentLabels">{index + 1 + ". " + item}</button>
             ))}
             <button className="addStudent">+ 添加学员</button>
           </section>
