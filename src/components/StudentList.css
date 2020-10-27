@@ -1,8 +1,24 @@
-.studentList button{
+.studentList {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.studentLabels {
+  width: 120px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: #eeeeee;
+  margin: 10px;
+  border-style: none;
+}
+
+.addStudent {
   padding: 10px 15px;
   color:#393e46;
   background-color: #f7f7f7;
   border-color: #393e46;
   border-style: solid;
   border-width: 1px;
+  margin: 10px;
+  width: 120px;
 }
