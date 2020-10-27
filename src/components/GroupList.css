@@ -1,0 +1,18 @@
+.groupHeader {
+  display: flex;
+  margin: 30px;
+  justify-content: space-between;
+}
+
+.groupHeader h1 {
+  font-size: 21px;
+}
+
+.groupStudents {
+  padding: 10px 15px;
+  color: white;
+  background-color: #ea5455;
+  border-style: none;
+  margin: 20px;
+  width: 120px;
+}
