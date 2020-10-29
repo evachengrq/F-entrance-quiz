@@ -8,6 +8,8 @@ class GroupList extends Component {
 
   render() {
     return (
+      // TODO GTB-知识点: - 存在没有意义的html嵌套
+      // TODO GTB-知识点: * class命名不符合规范，不建议用驼峰
       <section>
         <section className="groupHeader">
           <h1>分组列表</h1>
